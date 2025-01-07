@@ -39,4 +39,4 @@ if __name__ == "__main__":
     print('This is my first .py file.')
     printHello(input_v.name)
     days_since_birthday = cal_days_since_birthday(input_v.bd)
-    print(f'It has been {days_since_birthday} days since your birthday!')
+    print(f'เกิดมาแล้ว {days_since_birthday} วันค้าบฟู่วว!')
