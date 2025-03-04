@@ -12,10 +12,11 @@ AI Prototyping 2024 Thanaphorn kanking
 | 3  | YYYY-MM-DD | ... | - |
 
 ## 📖 เนื้อหาแต่ละคาบ
+
+# 🏫 คาบที่ 1: [ᴜʙᴜɴᴛᴜ ᴄᴏᴍᴍᴀɴᴅ ʟɪɴᴇ]
 <details> 
   <summary>ᴜʙᴜɴᴛᴜ ᴄᴏᴍᴍᴀɴᴅ ʟɪɴᴇ </summary>
   
-# 🏫 คาบที่ 1: [ᴜʙᴜɴᴛᴜ ᴄᴏᴍᴍᴀɴᴅ ʟɪɴᴇ]
 ## Command Line พื้นฐานบน Ubuntu
 ### 1. คำสั่งพื้นฐาน
 * list ทุกๆ file/folder ที่อยู่ใน folder ปัจจุบัน
