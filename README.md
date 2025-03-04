@@ -14,6 +14,7 @@ AI Prototyping 2024 Thanaphorn kanking
 ## 📖 เนื้อหาแต่ละคาบ
 <details> 
   <summary>ᴜʙᴜɴᴛᴜ ᴄᴏᴍᴍᴀɴᴅ ʟɪɴᴇ </summary>
+  
 # 🏫 คาบที่ 1: [ᴜʙᴜɴᴛᴜ ᴄᴏᴍᴍᴀɴᴅ ʟɪɴᴇ]
 ## Command Line พื้นฐานบน Ubuntu
 ### 1. คำสั่งพื้นฐาน
