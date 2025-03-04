@@ -107,7 +107,7 @@ AI Prototyping 2024 Thanaphorn kanking
   $ mv ./filex ~/testfolder2/. # ~ home
   $ mv ./filex ../../../testfolder2/.
   ```
-# ยกเลิกคำสั่ง
+### ยกเลิกคำสั่ง
 > ctrl+c
 
 ---
