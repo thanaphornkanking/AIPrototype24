@@ -13,7 +13,7 @@ AI Prototyping 2024 Thanaphorn kanking
 
 ## 📖 เนื้อหาแต่ละคาบ
 
-### 🏫 คาบที่ 1: [ᴜʙᴜɴᴛᴜ ᴄᴏᴍᴍᴀɴᴅ ʟɪɴᴇ]
+### 🏫 ครั้งที่ 1: [ᴜʙᴜɴᴛᴜ ᴄᴏᴍᴍᴀɴᴅ ʟɪɴᴇ]
 <details> 
   <summary>ᴜʙᴜɴᴛᴜ ᴄᴏᴍᴍᴀɴᴅ ʟɪɴᴇ </summary>
   
@@ -114,7 +114,7 @@ AI Prototyping 2024 Thanaphorn kanking
 > ctrl+c
 </details>
 
-### 🏫 คาบที่ 2: [ᴠɪʀᴛᴜᴀʟ ᴍᴀᴄʜɪɴᴇ(ᴠᴍ)]
+### 🏫 ครั้งที่ 2: [ᴠɪʀᴛᴜᴀʟ ᴍᴀᴄʜɪɴᴇ(ᴠᴍ)]
 <details> 
   <summary>ᴠɪʀᴛᴜᴀʟ ᴍᴀᴄʜɪɴᴇ(ᴠᴍ) </summary>
   
