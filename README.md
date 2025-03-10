@@ -10,13 +10,13 @@ Ai Prototyping 2024 Thanaphorn Kanking Student ID: 643021264-9
 |   4     |  JAN 7, 2025  | ᴡᴇʙ ᴘᴀɢᴇ                                 |
 |   5     |  JAN 21, 2025 | ᴇɴᴠɪʀᴏɴᴍᴇɴᴛ ᴄᴏɴᴅᴀ                         | 
 |   6     |  FEB 19, 2025 | ᴡᴇʙ ꜱᴇʀᴠɪᴄᴇ                              |
-
+|   7     |  Mar 11, 2025 | ᴅᴇᴇᴘ ʟᴇᴀʀɴɪɴɢ                             |
 
 
 # 💼 Contents
 
 <details> 
-  <summary> Github </summary>
+  <summary> ɢɪᴛʜᴜʙ </summary>
   
 * push ขึ้น Git
   ```bash
