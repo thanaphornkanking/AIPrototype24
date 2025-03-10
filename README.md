@@ -19,7 +19,7 @@ Ai Prototyping 2024 Thanaphorn Kanking Student ID: 643021264-9
   <summary> Github </summary>
   
 * push ขึ้น Git
-  ```
+  ```bash
   git remote add origin <URL ของ repo>       # เพิ่ม remote repository 
   git branch -M main                         # เปลี่ยนชื่อ branch เป็น main (GitHub ใช้ main แทน master)
   git push -u origin main                    # Push โค้ดขึ้น GitHub 
