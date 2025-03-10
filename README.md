@@ -12,36 +12,13 @@ Ai Prototyping 2024 Thanaphorn Kanking Student ID: 643021264-9
 |   6     |  FEB 19, 2025 | ᴡᴇʙ ꜱᴇʀᴠɪᴄᴇ                              | [ʟᴇᴄᴛᴜʀᴇ]() |
 
 
-## 2. **Github** 🐙
-<details>
-<summary>push ขึ้น Git ครั้งแรก</summary>
-  
-  ```bash
-git remote add origin <URL ของ repo>       # เพิ่ม remote repository 
-git branch -M main                         # เปลี่ยนชื่อ branch เป็น main (GitHub ใช้ main แทน master)
-git push -u origin main                    # Push โค้ดขึ้น GitHub 
-git config --global user.name "Your Name"  # ตั้งค่าชื่อของผู้ใช้ Git
-git config --global user.email "your-email@example.com"  # ตั้งค่าอีเมลของผู้ใช้ Git
-```
-</details>
-
-<details>
-<summary>คำสั่งใน Github</summary>
-
-  ```bash
-git init                             # เริ่มต้น Git repository ใหม่ในโฟลเดอร์ปัจจุบัน
-git status                           # แสดงสถานะของไฟล์ใน repository 
-git branch                           # ตรวจสอบ branch ปัจจุบัน
-git add .                            # เพิ่มไฟล์ทั้งหมดเข้า 
-git commit -m "เพิ่มคำอธิบาย commit"    # บันทึกการเปลี่ยนแปลงใน Git
-git log                              # แสดงประวัติ commit ล่าสุด
-git rm <filename>                    # ลบไฟล์และ commit การลบ
-git mv <old-name> <new-name>         # เปลี่ยนชื่อไฟล์และ commit การเปลี่ยนแปลง
-git push --force                     # บังคับ push ทับของเดิม (ใช้ระวัง)
-```
-</details>
 
 # 💼 Contents
+
+<details> 
+  <summary> Github </summary>
+
+</details>
 <details> 
   <summary> ᴜʙᴜɴᴛᴜ ᴄᴏᴍᴍᴀɴᴅ ʟɪɴᴇ </summary>
   
