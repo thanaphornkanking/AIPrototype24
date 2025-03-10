@@ -82,7 +82,6 @@ Ai Prototyping 2024 Thanaphorn Kanking Student ID: 643021264-9
 ## 3. การ copy และการย้าย file/folder
 ที่อยู่ของ File/Folder ในตอนสุดท้าย
 
-![output](https://github.com/user-attachments/assets/a87cd1dc-052c-4afb-bd53-7564c947696f)
 
 * หลักการ
   ```
@@ -239,14 +238,14 @@ conda remove --name ai_project --all
 สคริปต์ฝั่งผู้ใช้จะติดต่อกับ API ฝั่งเซิร์ฟเวอร์เพื่อส่งข้อความ โดยมีขั้นตอนดังนี้:
 
 - ผู้ใช้จะป้อนข้อความที่ต้องการส่ง
-- ผู้ใช้สามารถเลือกผู้รับได้ 2 คน: Tar หรือ Ploy
+- ผู้ใช้สามารถเลือกผู้รับได้ 2 คน: Phu หรือ Ploy
 - ส่งข้อความที่เลือกไปยังเซิร์ฟเวอร์ผ่านคำขอ HTTP POST
 
 สคริปต์จะส่งข้อมูลต่อไปนี้ไปยังเซิร์ฟเวอร์:
 - `msg`: ข้อความที่ผู้ใช้ป้อน
 - `ผู้รับ`: ชื่อของผู้รับข้อความ
 - `ip`: ที่อยู่ IP ของผู้รับ
-- `ผู้ส่ง`: ชื่อของผู้ส่งข้อความ
+- `ผู้ส่ง`: ชื่อผู้ส่ง
 
 **Code**:
 ```python
@@ -259,35 +258,54 @@ url = 'http://20.255.61.79:5006/simpleAPI'
 # ป้อนข้อความจากผู้ใช้
 msg = input("กรุณาป้อนข้อความ: ")
 
-# เลือกคนที่ต้องการส่งข้อความ
-print("\nเลือกคนที่ต้องการส่งข้อความ:")
-print("1. Tar (IP: 20.255.61.79)")
-print("2. Ploy (IP: 13.75.95.136)")
+# รายชื่อและ IP ที่มีอยู่แล้ว
+recipients = {
+    "Phu": "104.43.58.161",
+    "Ploy": "13.75.95.136"
+}
 
-choice = input("กรุณาเลือก 1 หรือ 2: ")
+# ให้ผู้ใช้ป้อนชื่อและ IP ของผู้รับเอง หรือเลือกจากที่มีอยู่แล้ว
+print("\nเลือกรายชื่อที่ต้องการส่งข้อความ:")
+for i, name in enumerate(recipients.keys(), start=1):
+    print(f"{i}. {name} (IP: {recipients[name]})")
+print(f"{len(recipients) + 1}. ป้อนชื่อและ IP เอง")
 
-# กำหนด IP และชื่อผู้รับตามตัวเลือก
-if choice == '1':
-    recipient = "Tar"
-    ip = "20.255.61.79"
-elif choice == '2':
-    recipient = "Ploy"
-    ip = "13.75.95.136"
+choice = input("กรุณาเลือกหมายเลข: ")
+
+if choice.isdigit() and int(choice) in range(1, len(recipients) + 1):
+    recipient = list(recipients.keys())[int(choice) - 1]
+    ip = recipients[recipient]
 else:
-    print("\n[ERROR] ตัวเลือกไม่ถูกต้อง! กรุณาเลือกตัวเลือกที่ถูกต้อง.")
-    exit()
+    recipient = input("ป้อนชื่อผู้รับ: ")
+    ip = input("ป้อน IP ของผู้รับ: ")
+    
+    # ตรวจสอบว่า IP ซ้ำหรือไม่
+    if ip in recipients.values():
+        print("\nพบ IP นี้อยู่แล้วในระบบ ข้ามไปยังขั้นตอนถัดไป...")
+    else:
+        recipients[recipient] = ip  # เพิ่มเข้าไปใน dictionary
 
 # ชื่อผู้ส่ง
-sender = "Phu"
+sender = "Tarkung"  # สามารถเปลี่ยนเป็น input() เพื่อให้ผู้ใช้ป้อนเองได้
 
 # สร้าง dictionary สำหรับข้อมูลที่จะส่งไป
 myobj = {
     'message_key': 'message_val',
-    'msg': msg,
-    'ผู้รับ': recipient,
-    'ip': ip,
-    'ผู้ส่ง': sender
+    'msg': msg,  # ใช้ข้อความที่ผู้ใช้ป้อน
+    'ผู้รับ': recipient,  # ชื่อผู้รับ
+    'ip': ip,  # IP ของผู้รับ
+    'ผู้ส่ง': sender  # ชื่อผู้ส่ง
 }
+
+# แสดงข้อมูลก่อนส่ง
+print("\nกำลังส่งข้อความ... \n")
+print(f"ข้อมูลที่ส่งไป: ")
+print(f"----------------------------")
+print(f"ผู้ส่ง: {sender}")
+print(f"ผู้รับ: {recipient}")
+print(f"IP ของผู้รับ: {ip}")
+print(f"ข้อความที่ส่ง: {msg}")
+print(f"----------------------------\n")
 
 # ส่งคำขอ POST
 x = requests.post(url, data=json.dumps(myobj))
