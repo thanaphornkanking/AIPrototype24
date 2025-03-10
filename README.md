@@ -346,6 +346,12 @@ else:
 
 </details>
 
+<details> 
+  <summary> ᴅᴇᴇᴘ ʟᴇᴀʀɴɪɴɢ </summary>
+  
+</details>
+
+
 # 🏠 Homework
 | Homework | Description | Files |
 |:--------:|:-----------|:------|
