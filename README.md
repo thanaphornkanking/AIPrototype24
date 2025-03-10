@@ -25,6 +25,18 @@ Ai Prototyping 2024 Thanaphorn Kanking Student ID: 643021264-9
   git push -u origin main                    # Push โค้ดขึ้น GitHub 
   git config --global user.name "Your Name"  # ตั้งค่าชื่อของผู้ใช้ Git
   git config --global user.email "your-email@example.com"  # ตั้งค่าอีเมลของผู้ใช้ Git
+  ```
+* คำสั่งใน Github
+  ```bash
+  git init                             # เริ่มต้น Git repository ใหม่ในโฟลเดอร์ปัจจุบัน
+  git status                           # แสดงสถานะของไฟล์ใน repository 
+  git branch                           # ตรวจสอบ branch ปัจจุบัน
+  git add .                            # เพิ่มไฟล์ทั้งหมดเข้า 
+  git commit -m "เพิ่มคำอธิบาย commit"    # บันทึกการเปลี่ยนแปลงใน Git
+  git log                              # แสดงประวัติ commit ล่าสุด
+  git rm <filename>                    # ลบไฟล์และ commit การลบ
+  git mv <old-name> <new-name>         # เปลี่ยนชื่อไฟล์และ commit การเปลี่ยนแปลง
+  git push --force                     # บังคับ push ทับของเดิม (ใช้ระวัง)
   ``` 
 </details>
 
