@@ -374,7 +374,7 @@ else:
 
 # CNN
   <div align="center" >
-       <img class="RELU"src="https://github.com/thanaphornkanking/AIPrototype24/blob/main/Lecture/deeplearning2.png" style="float: center;" >  
+       <img class="RELU"src="https://github.com/thanaphornkanking/AIPrototype24/blob/main/Lecture/deeplearning3.png" style="float: center;" >  
   </div>
 
 ภาพของโครงข่ายประสาทเทียมแบบคอนโวลูชัน (Convolutional Neural Network - CNN) ซึ่งใช้สำหรับงานด้านการจำแนกรูปภาพ (Image Classification) โดยอธิบายกระบวนการทำงานตั้งแต่รับภาพเข้าไปจนถึงการจำแนกผลลัพธ์
