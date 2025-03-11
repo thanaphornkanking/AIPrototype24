@@ -406,7 +406,7 @@ else:
 # Batch size & drop out
 
   <div align="center" >
-       <img class="RELU"src="https://github.com/thanaphornkanking/AIPrototype24/blob/main/Lecture/deeplearning4.png" style="float: center;" >  
+       <img class="RELU"src="https://github.com/thanaphornkanking/AIPrototype24/blob/main/Lecture/deeplearning4.jpg" style="float: center;" >  
   </div>
 
 
