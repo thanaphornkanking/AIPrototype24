@@ -176,10 +176,10 @@ cp ./filex ~/testfolder1/testfolder1_1/testfolder1_1_2/filey
 <details> 
   <summary> ᴠɪʀᴛᴜᴀʟ ᴍᴀᴄʜɪɴᴇꜱ </summary>
 
-## 🌐 การใช้งาน Azure Virtual Machines (VM)
+## 🔌🌐 การใช้งาน Azure Virtual Machines (VM)
 Azure Virtual Machines เป็นบริการที่สามารถสร้างเครื่องเสมือน (VM) บนคลาวด์ เพื่อใช้ในการพัฒนาและทดสอบแอปพลิเคชันต่าง ๆ  
 
-### 📌 **1. การสร้าง Virtual Machine บน Azure**
+### 🚀 **1. การสร้าง Virtual Machine บน Azure**
 1. เข้าไปที่ **Azure Portal** 👉 [https://portal.azure.com](https://portal.azure.com)
 2. ไปที่ **Virtual Machines** > **Create** > **Azure Virtual Machine**
 3. กำหนดค่า VM:
@@ -210,9 +210,9 @@ Azure Virtual Machines เป็นบริการที่สามารถ
 <details> 
   <summary> ᴇɴᴠɪʀᴏɴᴍᴇɴᴛ ᴄᴏɴᴅᴀ </summary>
 
-## 🐍 การใช้งาน Conda Environment เบื้องต้น
+## ⚙️🌱 การใช้งาน Conda Environment เบื้องต้น
 
-### 📌 **1. ติดตั้ง Conda**
+### 🚀 **1. ติดตั้ง Conda**
  Conda สามารถติดตั้งได้จาก:
 - **Miniconda** 👉 [https://docs.conda.io/en/latest/miniconda.html](https://docs.conda.io/en/latest/miniconda.html)
   #### หรือ
@@ -223,12 +223,12 @@ Azure Virtual Machines เป็นบริการที่สามารถ
 conda --version
 ```
 
-### 📌 **2. การสร้าง Environment ใหม่**
+### 🚀 **2. การสร้าง Environment ใหม่**
 
 ```sh
 conda create --name ai_project python=3.9
 ```
-### 📌 **3. การ Activate และ Deactivate Environment**
+### 🚀 **3. การ Activate และ Deactivate Environment**
 การ Activate Environment
 ```sh
 conda activate ai_project
@@ -238,7 +238,7 @@ conda activate ai_project
 conda deactivate
 ```
 
-### 📌 **4. การลบ Environment**
+### 🚀 **4. การลบ Environment**
 
 การ การลบ Environment
 ```sh
@@ -251,7 +251,7 @@ conda remove --name ai_project --all
 <details> 
   <summary> ᴡᴇʙ ꜱᴇʀᴠɪᴄᴇ </summary>
   
-## 💬 Web Service for Messaging
+## ⚡🔗 Web Service for Messaging
 
 เป็น Web Service ที่สามารถส่งข้อความระหว่างผู้ใช้ได้ โดยประกอบไปด้วย 2 ส่วนหลัก:
 
