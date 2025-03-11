@@ -403,25 +403,25 @@ else:
     - Tweety: 0.7
   จากค่านี้ โมเดลสามารถสรุปได้ว่า ภาพที่ป้อนเข้าไปคือ Tweety เนื่องจากมีค่าความน่าจะเป็นสูงสุด
 
-# Batch size & drop out
+## Batch size & drop out
 
   <div align="center" >
        <img class="RELU"src="https://github.com/thanaphornkanking/AIPrototype24/blob/main/Lecture/deeplearning4.jpg" style="float: center;" >  
   </div>
 
-# Load pretrainable weight & Freeze Layer
+## Load pretrainable weight & Freeze Layer
 
   <div align="center" >
        <img class="RELU"src="https://github.com/thanaphornkanking/AIPrototype24/blob/main/Lecture/deeplearning5.jpg" style="float: center;" >  
   </div>
   
-# Unfreeze Layer
+## Unfreeze Layer
 
   <div align="center" >
        <img class="RELU"src="https://github.com/thanaphornkanking/AIPrototype24/blob/main/Lecture/deeplearning6.jpg" style="float: center;" >  
   </div>
 
-# กราฟระหว่าง training loss and validation loss
+## กราฟระหว่าง training loss and validation loss
   - ไม่เรียนรู้
   <div align="center" >
        <img class="RELU"src="https://github.com/thanaphornkanking/AIPrototype24/blob/main/Lecture/deeplearning7.jpg" style="float: center;" >  
