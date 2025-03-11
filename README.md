@@ -369,6 +369,8 @@ else:
 
 ## Forward propagation
   - สมมุติว่า Algorithm มี Parameter w และ b ที่เป็นตัวแทนของข้อมูลเรียบร้อยแล้ว กระบวนการ Forward propagation คือการนำข้อมูล x เข้ามาประมวลผลร่วมกับ Parameter เหล่านั้นเป็นชั้นๆ จนได้คำตอบ
+## Backward propagation
+  - Backward propagation ในการปรับค่า Parameter ให้สะท้อนข้อมูลใน Train set มากขึ้น ทำอย่างนี้หลายๆ รอบจนกระทั่งได้ความแม่นยำของโมเดลตามที่ต้องการ เราเรียกการทำงานไป-กลับแต่ละรอบว่า 1 Epoch
 </details>
 
 
