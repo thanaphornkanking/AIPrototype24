@@ -439,7 +439,7 @@ else:
   
 </details>
 
-# 🏠 Homework
+# 📚🎯🤔 Homework
 | Homework | Description | Files |
 |:--------:|:-----------|:------|
 | HW1 | คำนวณจำนวนวันตั้งแต่วันเกิดจนถึงวันปัจจุบัน | `myfirst.py` |
