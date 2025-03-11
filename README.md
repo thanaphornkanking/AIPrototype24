@@ -364,7 +364,7 @@ else:
 <div align="center" >
        <img class="RELU"src="https://github.com/thanaphornkanking/AIPrototype24/blob/main/Lecture/deeplearning2.png" style="float: center;" >  
   </div>
-#### มี 4 ส่วน คือ Input layer, Hidden layer, Output layer, และ Prediction โดยเราจะอธิบายการทำงานทีละส่วน อนึ่ง เราเรียกกระบวนการที่ทั้ง 4 ส่วนนี้ทำงานต่อเนื่องกันจากด้านซ้ายไปด้านขวาของโครงสร้าง Neural network ว่ากระบวนการแผ่กระจายเดินหน้า หรือ Forward propagation ซึ่งทำงานร่วมกับการแผ่กระจายย้อนกลับ หรือ Backward propagation
+####  มี 4 ส่วน คือ Input layer, Hidden layer, Output layer, และ Prediction โดยเราจะอธิบายการทำงานทีละส่วน อนึ่ง เราเรียกกระบวนการที่ทั้ง 4 ส่วนนี้ทำงานต่อเนื่องกันจากด้านซ้ายไปด้านขวาของโครงสร้าง Neural network ว่ากระบวนการแผ่กระจายเดินหน้า หรือ Forward propagation ซึ่งทำงานร่วมกับการแผ่กระจายย้อนกลับ หรือ Backward propagation
 
 </details>
 
