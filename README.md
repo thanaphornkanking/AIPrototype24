@@ -403,7 +403,11 @@ else:
     - Tweety: 0.7
   จากค่านี้ โมเดลสามารถสรุปได้ว่า ภาพที่ป้อนเข้าไปคือ Tweety เนื่องจากมีค่าความน่าจะเป็นสูงสุด
 
+# Batch size & drop out
 
+  <div align="center" >
+       <img class="RELU"src="https://github.com/thanaphornkanking/AIPrototype24/blob/main/Lecture/deeplearning4.png" style="float: center;" >  
+  </div>
 
 
 </details>
