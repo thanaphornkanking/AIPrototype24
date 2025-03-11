@@ -409,6 +409,18 @@ else:
        <img class="RELU"src="https://github.com/thanaphornkanking/AIPrototype24/blob/main/Lecture/deeplearning4.jpg" style="float: center;" >  
   </div>
 
+# Load pretrainable weight & Freeze Layer
+
+  <div align="center" >
+       <img class="RELU"src="https://github.com/thanaphornkanking/AIPrototype24/blob/main/Lecture/deeplearning5.jpg" style="float: center;" >  
+  </div>
+  
+# Unfreeze Layer
+
+  <div align="center" >
+       <img class="RELU"src="https://github.com/thanaphornkanking/AIPrototype24/blob/main/Lecture/deeplearning6.jpg" style="float: center;" >  
+  </div>
+
 
 </details>
 
