@@ -353,8 +353,12 @@ else:
   <div align="center" >
        <img class="RELU"src="https://github.com/thanaphornkanking/AIPrototype24/blob/main/Lecture/deeplearning1.png" style="float: center;" >  
   </div>
+### จะเห็นว่ามี 3 ส่วน คือ Input, Classifier, และ Prediction
 
-  
+  - Input คือข้อมูลที่ป้อนเข้า Algorithm เช่นในกรณีนี้มี 3 Feature ได้แก่ x1, x2, และ x3
+  - Classifier คือฟังก์ชันที่นำเอา Input x มาคำนวนร่วมกับค่าน้ำหนัก w ของ x แต่ละตัว ผลที่ได้เรียกว่า z แล้วป้อน z เข้าสู่ฟังก์ชันตัดสินใจ σ เช่น Sigmoid function เพื่อคำนวนความเป็นไปได้ของคำตอ
+  - Prediction คือการตีความคำตอบของ Classifier แล้วนำเสนอผลลัพธ์ให้ผู้ใช้ เช่นคำถาม Binary classification ก็ให้คำตอบว่า "ใช่" หรือ "ไม่ใช่"
+
 </details>
 
 
