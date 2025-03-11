@@ -13,7 +13,7 @@ Ai Prototyping 2024 Thanaphorn Kanking Student ID: 643021264-9
 |   7     |  Mar 11, 2025 | ᴅᴇᴇᴘ ʟᴇᴀʀɴɪɴɢ                             |
 
 
-# 💼 Contents
+# 💡 Contents
 
 <details> 
   <summary> ɢɪᴛʜᴜʙ </summary>
