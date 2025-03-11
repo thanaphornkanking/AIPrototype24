@@ -43,7 +43,7 @@ Ai Prototyping 2024 Thanaphorn Kanking Student ID: 643021264-9
 <details> 
   <summary> ᴜʙᴜɴᴛᴜ ᴄᴏᴍᴍᴀɴᴅ ʟɪɴᴇ </summary>
   
-## 👨🏻‍💻 Command Line พื้นฐานบน Ubuntu
+## 🐧🔍 Command Line พื้นฐานบน Ubuntu
 ## 1. คำสั่งพื้นฐาน
 * list ทุกๆ file/folder ที่อยู่ใน folder ปัจจุบัน
   ```
