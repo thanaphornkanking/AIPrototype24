@@ -349,9 +349,11 @@ else:
 <details> 
   <summary> ᴅᴇᴇᴘ ʟᴇᴀʀɴɪɴɢ </summary>
 
+## Machine learning algorithm ทั่วไป เช่น Linear regression และ logistic regression โครงสร้างการเรียนรู้เป็นดังนี้:
   <div align="center" >
        <img class="RELU"src="https://github.com/thanaphornkanking/AIPrototype24/blob/main/Lecture/deeplearning1.png" style="float: center;" >  
   </div>
+
   
 </details>
 
