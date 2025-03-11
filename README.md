@@ -18,7 +18,7 @@ Ai Prototyping 2024 Thanaphorn Kanking Student ID: 643021264-9
 <details> 
   <summary> ɢɪᴛʜᴜʙ </summary>
   
-* push ขึ้น Git
+* 🐙push ขึ้น Git
   ```bash
   git remote add origin <URL ของ repo>       # เพิ่ม remote repository 
   git branch -M main                         # เปลี่ยนชื่อ branch เป็น main (GitHub ใช้ main แทน master)
@@ -26,7 +26,7 @@ Ai Prototyping 2024 Thanaphorn Kanking Student ID: 643021264-9
   git config --global user.name "Your Name"  # ตั้งค่าชื่อของผู้ใช้ Git
   git config --global user.email "your-email@example.com"  # ตั้งค่าอีเมลของผู้ใช้ Git
   ```
-* คำสั่งใน Github
+* 🌟คำสั่งใน Github
   ```bash
   git init                             # เริ่มต้น Git repository ใหม่ในโฟลเดอร์ปัจจุบัน
   git status                           # แสดงสถานะของไฟล์ใน repository 
