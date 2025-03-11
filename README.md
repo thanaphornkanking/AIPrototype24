@@ -421,10 +421,23 @@ else:
        <img class="RELU"src="https://github.com/thanaphornkanking/AIPrototype24/blob/main/Lecture/deeplearning6.jpg" style="float: center;" >  
   </div>
 
+# กราฟระหว่าง training loss and validation loss
+  - ไม่เรียนรู้
+  <div align="center" >
+       <img class="RELU"src="https://github.com/thanaphornkanking/AIPrototype24/blob/main/Lecture/deeplearning7.jpg" style="float: center;" >  
+  </div>
 
+  - learning rate น้อยเกิดไป
+  <div align="center" >
+       <img class="RELU"src="https://github.com/thanaphornkanking/AIPrototype24/blob/main/Lecture/deeplearning8.jpg" style="float: center;" >  
+  </div>
+
+  - เทรนกี่ epoch จะไม่เกิดการ overfit
+  <div align="center" >
+       <img class="RELU"src="https://github.com/thanaphornkanking/AIPrototype24/blob/main/Lecture/deeplearning9.jpg" style="float: center;" >  
+  </div>
+  
 </details>
-
-
 
 # 🏠 Homework
 | Homework | Description | Files |
