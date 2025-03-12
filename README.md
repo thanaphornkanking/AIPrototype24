@@ -1,6 +1,10 @@
 # AIPrototype2024
 Ai Prototyping 2024 Thanaphorn Kanking Student ID: 643021264-9
 
+- WEB_Project: [Link](https://phurisk.github.io/DentAnalyzer/)
+
+- WEB_APP: [Link](http://20.195.15.152:5000/homelogin)
+
 # 📅💻 Calendar
 |  ᴄʟᴀꜱꜱ  |     ᴅᴀᴛᴇ      |               ᴅᴇꜱᴄʀɪᴘᴛɪᴏɴ                        | 
 |:-------:|:-------------:|:-----------------------------------------------:|
