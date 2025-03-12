@@ -446,5 +446,6 @@ else:
 # 📚🎯🤔 Homework
 | Homework | Description | Files |
 |:--------:|:-----------|:------|
-| HW1 | คำนวณจำนวนวันตั้งแต่วันเกิดจนถึงวันปัจจุบัน | `myfirst.py` |
-| HW2 | ส่งข้อความด้วย Web Service | `firstflask.py` & `call_web_service.py` |
+| HW1 | คำนวณจำนวนวันตั้งแต่วันเกิดจนถึงวันปัจจุบัน | [`myfirstpy`](https://github.com/thanaphornkanking/AIPrototype24/blob/main/myfirst.py)  |
+| HW2 | ส่งข้อความด้วย Web Service | [`firstflask.py`](https://github.com/thanaphornkanking/AIPrototype24/blob/main/firstflask.py) & [`call_web_service.py`](https://github.com/thanaphornkanking/AIPrototype24/blob/main/call_web_service.py) |
+
